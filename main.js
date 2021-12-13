@@ -53,43 +53,43 @@ function gotResult(error, results){
         prediction_1 = results[0].label;
         prediction_2 = results[1].label;
         speak();
-        if(results[0].label=="happy")
+        if(results[0].label=="Happy")
         {
             document.getElementById("update_emoji").innerHTML="&#128512";
         }
-        if(results[0].label=="sad")
+        if(results[0].label=="Sad")
         {
             document.getElementById("update_emoji").innerHTML="&#128532";
         }
-        if(results[0].label=="mad")
+        if(results[0].label=="Mad")
         {
             document.getElementById("update_emoji").innerHTML="&#128545";
         }
-        if(results[0].label=="smile")
+        if(results[0].label=="Smile")
         {
             document.getElementById("update_emoji").innerHTML="&#128522";
         }
-        if(results[0].label=="upset")
+        if(results[0].label=="Upset")
         {
             document.getElementById("update_emoji").innerHTML="&#128548";
         }
-        if(results[1].label=="happy")
+        if(results[1].label=="Happy")
         {
             document.getElementById("update_emoji2").innerHTML="&#128522";
         }
-        if(results[1].label=="sad")
+        if(results[1].label=="Sad")
         {
             document.getElementById("update_emoji2").innerHTML="&#128532";
         }
-        if(results[1].label=="mad")
+        if(results[1].label=="Mad")
         {
             document.getElementById("update_emoji2").innerHTML="&#128548";
         }
-        if(results[1].label=="smile")
+        if(results[1].label=="Smile")
         {
             document.getElementById("update_emoji2").innerHTML="&#128522";
         }
-        if(results[1].label=="upset")
+        if(results[1].label=="Upset")
         {
             document.getElementById("update_emoji2").innerHTML="&#128548";
         }
